@@ -10,6 +10,7 @@ class VideosController < ApplicationController
 			:title => "Gladiator",
 			:description => "This is when Russell Crowe shows he is the man",
 			:youtube_id => "FI1ylg4GKv8"
+			# :youtube_url => ""
 		}
 	end
 
@@ -31,7 +32,10 @@ class VideosController < ApplicationController
 			:description => "a film of my formative youth.",
 			:youtube_id => "S4f4EsPBvTk"
 		}
+	end
 
+	def show_all
+		
 	end
 
 end
